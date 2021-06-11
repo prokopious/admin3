@@ -1,0 +1,31 @@
+[
+  {
+    "id": "Rye",
+    "title": "Rye",
+    "quantity": 5,
+    "description": "Le pain de seigle fait partie des pains dits pains spéciaux en ce qu'il est fabriqué princip »",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Mischbrot-1.jpg/800px-Mischbrot-1.jpg",
+    "price": 20.0
+  },
+  {
+    "id": "Country Loaf",
+    "title": "Country Loaf",
+    "description": "Boneless chicken breast sautéed with mushrooms and finished in a marsala and cream reduction.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Baguette-246424.jpg/800px-Baguette-246424.jpg",
+    "price": 22
+  },
+  {
+    "id": "Baguette",
+    "title": "Baguette",
+    "description": "Une baguette de pain ou simplement baguette, aussi ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Baguette-246424.jpg/800px-Baguette-246424.jpg",
+    "price": 10.0
+  },
+  {
+    "id": "Boule",
+    "title": "Boule",
+    "description": "Une boule, ou pain-boule, est une forme traditionnelle du pain en France.",
+    "image": "https://images.pexels.com/photos/1755785/pexels-photo-1755785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "price": 25.0
+  }
+]

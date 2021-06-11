@@ -1,0 +1,157 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: grid;
+background-color: red;
+  grid-template-columns: 1fr 1fr 1fr 130px;
+background-color: rgb(167, 167, 167);
+  grid-gap: 1px;
+
+}
+
+.box {
+  background-color: rgb(219, 219, 219);
+  color: rgb(43, 43, 43);
+ 
+  margin-bottom: 1px;
+  padding: 5px;
+  
+}
+
+.wrapper2 {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 130px;
+  background-color: rgb(167, 167, 167);
+  grid-gap: 1px;
+}
+body {
+  font-size: 14px;
+}
+
+.box2 {
+  background-color: rgb(0, 0, 0);
+  color: rgb(236, 236, 236);
+
+  padding: 5px;
+}
+.box3 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(43, 43, 43);
+
+  padding: 5px;
+}
+
+#container {
+  margin: 20px;
+
+}
+
+#orders {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .wrapper {grid-template-columns: 1fr 1fr 1fr 130px;}
+  .wrapper2 {  grid-template-columns: 1fr 1fr 1fr 130px;}
+}
+
+.topping {
+  padding-right: 5px;
+}
+
+#del {
+  background: url(https://media.istockphoto.com/vectors/metal-texture-background-vector-illustration-vector-id911910816?b=1&k=6&m=911910816&s=612x612&w=0&h=G5PnZmCog2DDJEp_GrlRmenuJthGxQ_hXN98A9zpGME=);
+}
+
+
+#boxy {
+ 
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  background-color: rgba(199, 25, 25, 0.37);
+}
+
+.chipmunk {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 130px;
+}
+
+#boxx {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.ebox {
+  display: grid;
+  padding: 5%;
+  grid-template-columns: 50%;
+  grid-template-rows: 1fr 1fr 1fr 100px;
+  grid-gap: 20px;
+}
+
+.content {
+ justify-content:first baseline
+}
+
+.b {
+  margin-left: 5%;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 2fr 1fr 4fr 1fr 1fr;
+  padding: 10px;
+  background-color: black;
+  color: white;
+
+}
+
+.navbar a {
+  padding: 5px;
+}
+
+.navbar2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr 1fr 1fr;
+  padding: 10px;
+  background-color: black;
+  color: white;
+
+}
+
+.navbar2 a {
+  padding: 5px;
+}
+
+.login {
+ margin: 30%;
+ margin-top: 5%;
+ padding: 0; 
+}
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
+  color: blue;
+}
